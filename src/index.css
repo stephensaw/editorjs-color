@@ -1,0 +1,64 @@
+.editorjs-color__container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  border-left: 0;
+  border-right: 0;
+  overflow: hidden;
+}
+
+.editorjs-color__actions {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.editorjs-color__preview {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: 4px solid #fff;
+  margin: 10px 10px 10px 0;
+  padding: 15px;
+  box-shadow: 0 0 0 1px #eaeaea;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.editorjs-color__input {
+  padding: 10px;
+  color: #3e3e3e;
+  border: 1px solid #d3d3d3;
+  font-size: large;
+  width: 100%;
+}
+
+.editorjs-color__picker {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.editorjs-color__picker [type=color] {
+  position: absolute;
+  opacity: 0;
+}
+
+.editorjs-color__palettes {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #eaeaea;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.editorjs-color__palette {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1px #d3d3d3;
+  padding: 10px;
+  margin: 5px;
+}
